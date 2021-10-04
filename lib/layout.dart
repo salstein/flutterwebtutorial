@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:webtutorial/widgets/large_screen.dart';
 
 
 
@@ -10,14 +11,7 @@ class SiteLayout extends StatelessWidget {
     return Scaffold(
 
       appBar: AppBar(elevation: 0,backgroundColor: Colors.white,),
-      body: Row(children: [
-        Expanded(child: Container(
-          color: Colors.red
-        )),
-
-
-        Expanded(flex:5, child: Container(),)
-      ],)
+      body: LargeScreen()
     );
   }
 }
